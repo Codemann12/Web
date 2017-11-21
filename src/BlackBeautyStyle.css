@@ -1,6 +1,4 @@
-p
-{
-	
+p {	
 	font-size: x-large;
 	font-style: italic;
 	text-align: left;
@@ -8,32 +6,29 @@ p
 
 
 
-ul, spam
-{
+ul, spam {
 	
 	font-size: x-large;
 	text-align: left;
 }
 
 
-
-h1
-{
+h1 {
 	color: red;
 	text-align: center;
-	
 }
 
-h2{
+h2 {
 	text-align: center;
 	color: #facb23;
 }
 
 
-nav{
+nav {
 	box-shadow: 6px 3px 3px red;
 }
-nav{
+
+nav {
 
    width: 150px;
    border: 3px solid red
@@ -41,8 +36,7 @@ nav{
 
 }
 
-h3
-{ 
+h3 { 
    color: green;
    font-size: x-large;
    text-align: left;
@@ -55,8 +49,25 @@ h3
  }
 */
 
- footer{
+ footer {
  	
  	height: 200px;
  	border: 3px solid red;
  }
+
+
+ section {
+ 	border: 1px solid black;
+ 	padding: 5px;
+ 	margin: auto;
+ }
+
+
+ ul {
+  list-style-type: none;
+}
+
+#topsection {
+ display: flex;
+ flex-direction: column-reverse;
+}
