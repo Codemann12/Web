@@ -1,0 +1,65 @@
+header {
+	background-color: black;
+	margin-right: -9px;
+	margin-left: -9px;
+}
+
+
+header img{
+	margin-right: 20px;
+}
+
+#pageHeader {
+	text-align: right;
+	margin-right:  110px;
+	margin-top: -9px;
+
+}
+
+
+#pageHeader img{
+	width: 42px;
+	height: 42px;
+
+}
+
+
+#banner h1 {
+	background-color: #FA0000;
+	width: 130px;
+	height: 50px;
+	margin-left: 120px;
+    
+
+}
+
+
+section {
+	margin-top: -22px;
+	margin-left: -9px;
+	margin-right: -9px;
+	width: auto;
+	height: 500px;
+	background: url("Images/sneaker.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+ nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a
+{
+    font-size: 1.8em;
+    color: #181818;
+    padding-bottom: 5px;
+    text-decoration: none;
+}
+
+nav li
+{
+    margin-right: -400px;
+}
