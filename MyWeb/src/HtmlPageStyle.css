@@ -25,8 +25,8 @@
 */
 header {
 	background-color: black;
-	margin-right: -8px;
-	margin-left: -8px;
+	margin-right: -0.4%;
+	margin-left: -2%;
 }
 
 
@@ -44,7 +44,6 @@ header img{
 #pageHeader img { 
 	width: 42px;
 	height: 42px;
-
 }
 
 /* still part of the header */
@@ -74,8 +73,8 @@ header img{
 
 #banner {
 	margin-top: -40px;
-	margin-left: -8px;
-	margin-right: -8px;
+	margin-left: -2%;
+	margin-right: -0.4%;
 	width: auto;
 	height: 500px;
 	background: url("Images/sneaker.jpg");
@@ -117,7 +116,7 @@ nav li {
   border-radius: 5px;
   outline: none;
   color: #9DBFAF;
-  margin-top: 225px;
+  margin-top: 0%;
 }
 
 .searchTerm:focus{
@@ -139,7 +138,7 @@ nav li {
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
-  margin-top: 225px;
+  margin-top: 0%;
 }
 
 /*Resize the wrap to see the search bar change!*/
@@ -153,15 +152,28 @@ nav li {
 
 
 #all0 {
-	display: flex;	
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	margin-top: 4%;
 	
+
 }
+
+
+.inner-all0{
+	display: flex;;
+	height: 350px;
+	width: 10000px;
+}
+
 
 /* section design0 */
 #left_section0 {
-	width: 355px;
-	height: 400px;
-	margin-right: 35px;
+	width: 300px;
+	height: 300px;
+	margin-right: 1%;
+	margin-left: 1%;
 	box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
 	background: url("Images/shoe1.jpg");
@@ -202,9 +214,9 @@ nav li {
 
 /* section design00 */
 #left_section00 {
-	width: 355px;
-	height: 400px;
-	margin-right: 35px;
+	width: 300px;
+	height: 300px;
+	margin-right: 1%;
 	box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
 	background: url("Images/shoe2.jpg");
@@ -219,18 +231,11 @@ nav li {
 }
 
 
-#description0 {
-	position:absolute; 
-	bottom:0;
-	color: red;
-}
-
-
 /* section design00 */
 #left_section01 {
-	width: 355px;
-	height: 400px;
-	margin-right: 35px;
+	width: 300px;
+	height: 300px;
+	margin-right: 1%;
 	box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
 	background: url("Images/shoe3.jpg");
@@ -245,18 +250,12 @@ nav li {
 }
 
 
-#description1 {
-	position:absolute; 
-	bottom:0;
-	color: red;
-}
-
 
 /* section design02 */
 #left_section02 {
-	width: 355px;
-	height: 400px;
-	margin-right: 35px;
+	width: 300px;
+	height: 300px;
+	margin-right: 1%;
 	box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
 	background: url("Images/shoe5.jpg");
@@ -271,13 +270,130 @@ nav li {
 }
 
 
-#description2 {
-	position:absolute; 
-	bottom:0;
-	color: red;
+/* section design03 */
+#left_section03 {
+	width: 300px;
+	height: 300px;
+	margin-right: 1%;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 10px;
+	background: url("Images/shoe5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	 
+}
+
+/* description at the end on f the section */
+#left_section03 {
+	position: relative;
+}
+
+#all1 {
+	display: flex;
+    background-color: #bebebe;
+	width: 100%;
+	height: 350px;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	margin-top: 4%;
+
+}
+
+
+.inner-all1 {
+	display: flex;
+	width: 10000px;
+
+}
+
+
+/* section design02 */
+#left_section10 {
+
+	width: 300px;
+	height: 300px;
+	margin-right: 1%;
+	margin-left:  1%;
+	margin-top: 1%;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+	background: url("Images/shoe5.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	 
+}
+
+/* description at the end on f the section */
+#left_section10 {
+	position: relative;
+}
+
+
+/* section design02 */
+#left_section11 {
+
+	width: 300px;
+	height: 300px;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    margin-right: 1%;
+    margin-top: 1%;
+	background: url("Images/shoe3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	 
+}
+
+/* description at the end on f the section */
+#left_section11 {
+	position: relative;
+}
+
+
+footer {
+	margin-top: 4%;
+    padding: 6.1em;
+    color: white;
+    background-color: #48D1CC;
+    text-align: center;
+    position: ´relative;
+}
+
+.contact{
+	text-align: right;
+	
+}
+/* Formular ......*/
+
+#formular {
+	width: 400px;
+	height: 500px;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    background-color: #483D8B;
+    text-align: center;
+    position: center;
+    margin: auto;
+    padding: 10px;
+    margin-top: 5%;
+}
+
+#deco img {
+	width: 350px;
+	height: 350px;
+	float: left;
+
 }
 
 
 
+#formular p {
+	color: white;
+}
 
-
+#formular-wraper {
+	color: black;
+	background-color: url(Images/bbformular.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}

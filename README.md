@@ -1,2 +1,2 @@
 # Web_Entwickler
-building a web application 
+Learning how to build a website. 
