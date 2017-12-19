@@ -38,7 +38,7 @@
                  </nav>
         
              <h2>your hair? your style.</h2>
-             <h3>find the coolest and the best hair style online</h3>
+            
 
 <!-- search field -->
              <div class="wrap">

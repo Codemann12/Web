@@ -19,19 +19,20 @@
 
         <div id="banner">
         	   <h1>Hair<span>S</span>tyle.</h1>
+
                  <nav>
                      <ul>
         	             <li><a href="#"> Styles</a></li>
         		           <li><a href="#"> Sale</a></li>
         		           <li><a href="#"> Coming Soon</a></li>
-        		           <li><a href="sessionRecover"> welcome <?php echo $_SESSION['surname'] ?></a></li>
+        		           
         		           <li><a href="log_out.php"> Log out</a></li>
         		          
         	           </ul>
                  </nav>
         
              <h2>your hair? your style.</h2>
-             <h3>find the coolest and the best hair style online</h3>
+           
 
 <!-- search field -->
              <div class="wrap">

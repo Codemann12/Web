@@ -34,7 +34,7 @@
 
 #banner  a:hover{
 	text-decoration: underline;
-	font-size: 2.5em;
+	font-size: 1.7em;
 }
 
 #pageHeader a:hover{
@@ -85,6 +85,8 @@ header img{
 	font-family: Dayrom,serif;
 	color: #FF00FF;
 }
+
+
 #banner h2{
 	color: #00B4CC;
 	text-align: center;
@@ -93,11 +95,7 @@ header img{
 	margin-left: 120px;
 }
 
-#banner h3{
-	color: #ff00ff;
-	text-align: center;
-	margin-top: -69px;
-}
+
 
 
 #banner {
@@ -110,7 +108,10 @@ header img{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
+ 
+#banner img{
+	height: 42px;
+}
 nav ul {
     list-style-type: none;
     display: flex;
@@ -228,6 +229,7 @@ input[type="submit"]{
 
 
 #description {
+	background-color: white;
 	position:absolute; 
 	bottom:0;
 	color: red;
