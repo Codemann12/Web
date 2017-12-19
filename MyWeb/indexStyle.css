@@ -81,6 +81,10 @@ header img{
 	margin-left: 80px;
 }
 
+#banner h1 span{
+	font-family: Dayrom,serif;
+	color: #FF00FF;
+}
 #banner h2{
 	color: #00B4CC;
 	text-align: center;
@@ -509,9 +513,15 @@ footer {
 
 
 
-#titleCreator h1{
+#titleCreator h1 {
 	text-align: center;
 	margin-bottom: -4%;
+}
+
+#titleCreator h3 {
+	text-align: center;
+	position: relative;
+
 }
 
 /* just for a period */

@@ -1,35 +1,18 @@
 <?php 
  session_start();
 
-?>
-
-<!DOCTYPE html>
-<html>
-   <head>
-	    <meta charset="utf-8">
-    	<link rel="stylesheet" type="text/css" href="indexStyle.css">
-    	<link rel="shortcut icon" href="Images/icon.ico" />
-	    <title>HairStyle</title>
-   </head>
-
-
-
-<body>
-    <?php include("header.php");
-
       if (!isset($_POST['email']) && !isset($_POST['password'])
-          && empty($_POST['email']) && empty($_POST['password'])) {
+          || empty($_POST['email']) || empty($_POST['password'])) {
+      	  header("Location: log_in_error.php");
+         // sql loading...
+      	}
 
-      	echo ' Please type in your email and your password.';
-     
-      }else{
-      	$login = true;
-      }
-      	
-     ?>
+        $_SESSION['surname']    = "user00"; // just for test purpose
+        $_SESSION['email']    = $_POST['email'];
+        $_SESSION['password'] = $_POST['password'];
+        $_SESSION['error_log_in'] = "password or email wrong..."; // would be handel properly with Mysql
 
-<!-- footer -->
-<?php include("footer.php"); ?>
 
- </body>
-</html>
+   include 'welcome_user.php'; 
+
+?>

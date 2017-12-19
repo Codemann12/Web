@@ -1,41 +1,39 @@
 <?php 
  session_start();
-
-?>
-
-
-<!DOCTYPE html>
-<html>
-   <head>
-	    <meta charset="utf-8">
-    	<link rel="stylesheet" type="text/css" href="indexStyle.css">
-    	<link rel="shortcut icon" href="Images/icon.ico" />
-	    <title>Welcome <?php echo htmlspecialchars($_SESSION['surname']); ?></title>
-   </head>
-
-
-
-<body>
-
-
-
-    <?php include("header.php");
-   
+ 
      if (isset($_POST['password']) && (($_POST['password'] != $_POST['passwordVerify']))) {
-    	 echo "The password are not similar...."; 
-    	 print_r( $_SESSION["surname"]);
+     	  $_SESSION['error_account']    = 'The password are not similar...';
+    	 header("Location: sign_up_error.php");
     	}
 
-     if (empty($_POST['password']) && eval($_POST['password']) < 5 ) {
-     	echo "password to short."; 
-     	print_r($_SESSION["surname"]);
+     if (empty($_POST['password']) && eval($_POST['password']) < 5 ) { 
+     	$_SESSION['error_account']   = "password to short...";
+     	header("Location: sign_up_error.php");     
        }
 
-    ?>
+     if (!isset($_POST['email']) || empty($_POST['email'])) {
+     	  $_SESSION['error_account']    = 'please type in your email...';
+    	 header("Location: sign_up_error.php");
+    	}
 
 
-<!-- footer -->
-<?php include("footer.php"); ?>
+     if (!isset($_POST['surname']) || empty($_POST['surname'])) {
+     	  $_SESSION['error_account']    = 'please type in your surname...';
+    	 header("Location: sign_up_error.php");
+    	}
 
- </body>
-</html>
+     if (!isset($_POST['name']) || empty($_POST['name'])) {
+     	  $_SESSION['error_account']    = 'please type in your name...';
+    	 header("Location: sign_up_error.php");
+    	}
+
+
+
+     $_SESSION['email']    = $_POST['email'];
+     $_SESSION['password'] = $_POST['password'];
+     $_SESSION['surname']  = $_POST['surname'];
+     $_SESSION['name']     = $_POST['name'];
+     
+     include 'welcome_user.php';
+?>
+

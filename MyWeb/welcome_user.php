@@ -1,29 +1,21 @@
-<?php 
- session_start();
-
-?>
-
 
 <!DOCTYPE html>
 <html>
-
- <!-- page head -->
-    <head>
-    	  <meta charset="utf-8">
-    	     <link rel="stylesheet" type="text/css" href="indexStyle.css">
-    	        <div id="icon">
-    	          <link rel="shortcut icon" href="Images/icon.ico" />
-    	        </div>
-	      <title>Einkauf</title>
-    </head>
-
-
-<!-- page body -->
+   <head>
+	    <meta charset="utf-8">
+    	<link rel="stylesheet" type="text/css" href="indexStyle.css">
+    	<link rel="shortcut icon" href="Images/icon.ico" />
+	    <title>Welcome <?php echo htmlspecialchars($_SESSION['surname']); ?></title>
+   </head>
 <body>
-  <div id="pageBody">
+
+    <?php include("header.php");  ?>
+
+    
+      <div id="pageBody">
 
  <!--  header will be bind with the iclude function -->
-       <?php include("header.php"); ?>
+       
 
         <div id="banner">
         	   <h1>Hair<span>S</span>tyle.</h1>
@@ -32,8 +24,9 @@
         	             <li><a href="#"> Styles</a></li>
         		           <li><a href="#"> Sale</a></li>
         		           <li><a href="#"> Coming Soon</a></li>
-        		           <li><a href="log_in"> Log in</a></li>
-        		           <li><a href="Sign_up.php"> Sign up</a></li>
+        		           <li><a href="sessionRecover"> welcome <?php echo $_SESSION['surname'] ?></a></li>
+        		           <li><a href="log_out.php"> Log out</a></li>
+        		          
         	           </ul>
                  </nav>
         
@@ -48,6 +41,8 @@
                   </div>
              </div>
       </div>
+
+
 
       <h1>Style of the day </h1>
 
@@ -223,10 +218,9 @@
 
      </div>
   </div>
+
 <!-- footer -->
+<?php include("footer.php"); ?>
 
-<?php include("Footer.php"); ?>
-
-       </div>
-    </body>
+ </body>
 </html>
