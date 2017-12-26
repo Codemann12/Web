@@ -3,38 +3,35 @@
 <html>
    <head>
 	    <meta charset="utf-8">
-    	<link rel="stylesheet" type="text/css" href="indexStyle.css">
+    	<link rel="stylesheet" type="text/css" href="IndexStyle.css">
     	<link rel="shortcut icon" href="Images/icon.ico" />
 	    <title>Welcome <?php echo htmlspecialchars($_SESSION['surname']); ?></title>
    </head>
+
+<!-- page body -->
 <body>
+  <div id="pageBody">
 
-    <?php include("header.php");  ?>
+ <!--  header will be bind with the iclude function
+       <?php include("Header.php"); ?>  -->
 
-    
-      <div id="pageBody">
-
- <!--  header will be bind with the iclude function -->
-       
-
-        <div id="banner">
-        	   <h1>Hair<span>S</span>tyle.</h1>
-
+        <div id= "header">
+             <h1>Hair<span>S</span>tyle<d>.com</d></h1>
+             <sa> <a href=" LogIn.php"> <?php echo htmlspecialchars($_SESSION['surname']); ?>  
+              HairStyle</a></sa>
                  <nav>
                      <ul>
-        	             <li><a href="#"> Styles</a></li>
-        		           <li><a href="#"> Sale</a></li>
-        		           <li><a href="#"> Coming Soon</a></li>
-        		           
-        		           <li><a href="log_out.php"> Log out</a></li>
-        		          
-        	           </ul>
+                       <li><a href="#"> Styles</a></li>
+                       <li><a href="#"> Sale</a></li>
+                       <li><a href="#"> Coming Soon</a></li>
+                       <li><a href="LogOut.php"> Log out</a></li>
+                     </ul>
                  </nav>
         
-             <h2>your hair? your style.</h2>
-           
+       
+            
 
-<!-- search field -->
+<!-- search field --> 
              <div class="wrap">
                   <div class="search">
                       <input type="text" class="searchTerm" placeholder="What are you looking for?">
@@ -43,15 +40,14 @@
              </div>
       </div>
 
-
-
+    <div id="blockTitle">
       <h1>Style of the day </h1>
-
+    </div>
  <!-- first section containing many other sections -->           
       <div id="all0">
             <div class="inner-all0">  <!-- for the scrollbar -->
              
-              <a href="preis_and_payement.php">
+              <a href="PreisAndPayement.php">
                 <section id="left_section0">
                    <div id="percentage_image">
                      <img src="Images/percentage.jpg" />
@@ -64,7 +60,7 @@
               </a>
 
 
-              <a href="preis_and_payement.php">
+              <a href="PreisAndPayement.php">
                 <section id="left_section00">
                      <div id="percentage_image">
                         <img src="Images/percentage.jpg" />
@@ -77,7 +73,7 @@
               </a>
 
 
-               <a href="preis_and_payement.php">
+               <a href="PreisAndPayement.php">
                 <section id="left_section01">
                      <div id="percentage_image">
                          <img src="Images/percentage.jpg" />
@@ -90,7 +86,7 @@
               </a>
 
               
-              <a href="preis_and_payement.php">
+              <a href="PreisAndPayement.php">
                <section id="left_section02">
                    <div id="percentage_image">
                      <img src="Images/percentage.jpg" />
@@ -103,7 +99,7 @@
               </a>
 
 
-              <a href="preis_and_payement.php">
+              <a href="PreisAndPayement.php">
                <section id="left_section03">
                    <div id="percentage_image">
                      <img src="Images/percentage.jpg" />
@@ -116,7 +112,7 @@
               </a>
 
 
-              <a href="preis_and_payement.php">
+              <a href="PreisAndPayement.php">
                <section id="left_section04">
                    <div id="percentage_image">
                      <img src="Images/percentage.jpg" />
@@ -128,7 +124,7 @@
                </section>
               </a>
 
-              <a href="preis_and_payement.php">
+              <a href="PreisAndPayement.php">
                <section id="left_section05">
                    <div id="percentage_image">
                      <img src="Images/percentage.jpg" />
@@ -140,7 +136,7 @@
                </section>
               </a>
 
-              <a href="preis_and_payement.php">
+              <a href="PreisAndPayement.php">
                <section id="left_section06">
                    <div id="percentage_image">
                      <img src="Images/percentage.jpg" />
@@ -219,9 +215,10 @@
 
      </div>
   </div>
-
 <!-- footer -->
-<?php include("footer.php"); ?>
 
- </body>
+<?php include("Footer.php"); ?>
+
+       </div>
+    </body>
 </html>

@@ -4,8 +4,7 @@
  <!-- page head -->
     <head>
     	  <meta charset="utf-8">
-    	     <link rel="stylesheet" type="text/css" href="indexStyle.css?ver =<?php
-           filemtime('indexStyle.css');?>">
+    	     <link rel="stylesheet" type="text/css" href="IndexStyle.css">
     	        <div id="icon">
     	          <link rel="shortcut icon" href="Images/icon.ico" />
     	        </div>
@@ -18,11 +17,9 @@
   <div id="pageBody">
 
  <!--  header will be bind with the iclude function -->
-  <?php include("header.php"); ?>
+  <?php include("Header.php"); ?>
   <spam id="warn">
-    <p>
-      <img src="Images/emoji.jpg">
-    </p>
+    <p><img src="Images/emoji.jpg">  </p>
 <h1 id="warning"> Please comme back Later...we are still building the page.</h1>
 </spam>
 <!-- footer -->

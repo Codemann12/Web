@@ -21,18 +21,12 @@
     font-style: normal;
 }
 
-/* design  for the header
-*/
 header {
 	background-color: black;
 	margin-right: -0.4%;
 	margin-left: -2%;
 }
 
-
-header img{
-	margin-right: 20px;
-}
 
 #pageHeader {
 	text-align: right;
@@ -46,41 +40,78 @@ header img{
 	height: 42px;
 }
 
-/* still part of the header */
 
 
-#banner h1 {
-	font-size: 60px;
-	background-color: #00B4CC;
-	width: 300px;
-	margin-left: 80px;
+#header  a:link, a:visited {
+    color: white;
+
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
 }
 
-#banner h2{
-	color: #00B4CC;
-	text-align: center;
-	font-family: Dayrom, serif;
-	font-size:  90px;
-	margin-left: 120px;
-}
-
-#banner h3{
-	color: #ff00ff;
-	text-align: center;
-	margin-top: -69px;
+#header  a:hover{
+	text-decoration: underline;
+	font-size: 1em;
 }
 
 
-#banner {
-	margin-top: -40px;
-	margin-left: -2%;
+#formular a:hover{
+	text-decoration: underline;
+	font-size: 1.5em;
+}
+/* design  for the header
+*/
+header {
+	background-color: black;
 	margin-right: -0.4%;
-	width: auto;
-	height: 500px;
-	background: url("Images/sneaker.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
+	margin-left: -2%;
 }
+
+
+header img{
+	margin-right: 20px;
+}
+
+
+#header h1{
+	color: white;
+	margin-left: 5%;
+}
+
+#header h1 span{
+	font-family: Dayrom,serif;
+	color: #FF00FF
+}
+
+#header h1 d{
+	font-size: 50%;
+	font-family: Dayrom,serif;
+	color: #FF00FF
+}
+
+
+
+
+#header  sa{
+	color: white;
+	margin-top: -1.6%;
+	margin-bottom: -30%;
+	margin-left: 89%;
+	
+
+}
+#header {
+	margin-top: -1.6%;
+	margin-bottom: -30%;
+	margin-left: -2%;
+	margin-right: -0.7%;
+	width: auto;
+	height: 140px;
+	background-color: #33001a;
+}
+ 
+
 
 nav ul {
     list-style-type: none;
@@ -89,19 +120,29 @@ nav ul {
 }
 
 nav a {
-    font-size: 1.8em;
-    color: #181818;
+    font-size: 1em;
     padding-bottom: 5px;
-    text-decoration: none;
+    
 }
 
 nav li {
     margin-right: -40px;
 }
 
+/* submit button */
+input[type="submit"]:hover{
+	font-size: 1em;
+    text-decoration: underline;
+}
+
+input[type="submit"]{
+    
+    background-color: #808018;
+    color: #fff;
+    border-radius: 10px;
+}
+
 /* search bar*/
-
-
 .search {
   width: 100%;
   position: relative
@@ -116,7 +157,7 @@ nav li {
   border-radius: 5px;
   outline: none;
   color: #9DBFAF;
-  margin-top: 0%;
+  margin-top: -70%;
 }
 
 .searchTerm:focus{
@@ -138,7 +179,7 @@ nav li {
   border-radius: 5px;
   cursor: pointer;
   font-size: 20px;
-  margin-top: 0%;
+  margin-top: -70%;
 }
 
 /*Resize the wrap to see the search bar change!*/
@@ -155,7 +196,7 @@ nav li {
 	display: flex;
 	overflow-x: scroll;
 	overflow-y: hidden;
-	margin-top: 4%;
+	margin-top: 20%;
 	
 
 }
@@ -172,11 +213,10 @@ nav li {
 #left_section0 {
 	width: 300px;
 	height: 300px;
-	margin-right: 1%;
-	margin-left: 1%;
+	margin-right: 5px;
 	box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 5px;
-	background: url("Images/shoe1.jpg");
+    border-radius: 2px;
+	background: url("Images/hair7.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	 
@@ -189,6 +229,7 @@ nav li {
 
 
 #description {
+	background-color: white;
 	position:absolute; 
 	bottom:0;
 	color: red;
@@ -196,12 +237,12 @@ nav li {
 
 
 /* image at the coner of the section */
-#per {
-	position: relative;
+#percentage_image {
+	position: relative; 
 }
 
 
-#per img {
+#percentage_image img {
 	width: 75px;
     height: 75px;
 	position: absolute;
@@ -217,9 +258,10 @@ nav li {
 	width: 300px;
 	height: 300px;
 	margin-right: 1%;
+	margin-left: 2%;
 	box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
-	background: url("Images/shoe2.jpg");
+	background: url("Images/hair6.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	 
@@ -236,9 +278,10 @@ nav li {
 	width: 300px;
 	height: 300px;
 	margin-right: 1%;
+	margin-left: 4%;
 	box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
-	background: url("Images/shoe3.jpg");
+	background: url("Images/hair3.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	 
@@ -256,9 +299,10 @@ nav li {
 	width: 300px;
 	height: 300px;
 	margin-right: 1%;
+	margin-left: 6%;
 	box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
-	background: url("Images/shoe5.jpg");
+	background: url("Images/hair5.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	 
@@ -275,6 +319,69 @@ nav li {
 	width: 300px;
 	height: 300px;
 	margin-right: 1%;
+	margin-left: 10%;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 10px;
+	background: url("Images/hair4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	 
+}
+
+/* description at the end on f the section */
+#left_section03 {
+	position: relative;
+}
+
+
+/* section design03 */
+#left_section04 {
+	width: 300px;
+	height: 300px;
+	margin-right: 1%;
+	margin-left: 14%;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 14px;
+	background: url("Images/hair1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	 
+}
+
+/* description at the end on f the section */
+#left_section04 {
+	position: relative;
+}
+
+
+/* section design03 */
+#left_section05 {
+	width: 300px;
+	height: 300px;
+	margin-right: 1%;
+	margin-left: 18%;
+	box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 10px;
+	background: url("Images/hair2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	 
+}
+
+/* description at the end on f the section */
+#left_section05 {
+	position: relative;
+}
+
+
+
+
+/* section design03 */
+#left_section06 {
+	width: 300px;
+	height: 300px;
+	margin-right: 1%;
+	margin-left: 22%;
 	box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 10px;
 	background: url("Images/hair5.jpg");
@@ -284,7 +391,7 @@ nav li {
 }
 
 /* description at the end on f the section */
-#left_section03 {
+#left_section06 {
 	position: relative;
 }
 
@@ -317,7 +424,7 @@ nav li {
 	margin-top: 1%;
 	box-shadow: 0px 2px 5px #1c1a19;
     border-radius: 5px;
-	background: url("Images/shoe5.jpg");
+	background: url("Images/hair8.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	 
@@ -338,7 +445,7 @@ nav li {
     border-radius: 5px;
     margin-right: 1%;
     margin-top: 1%;
-	background: url("Images/shoe3.jpg");
+	background: url("Images/hair9.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	 
@@ -353,7 +460,6 @@ nav li {
 footer {
 	margin-top: 5%;
     padding: 0.5em;
-    color: white;
     background-color: #808018;
     text-align: center;
     position: relative;
@@ -361,28 +467,37 @@ footer {
 
 .contact{
 	text-align: top-right;
-	
 }
-/* Formular ......*/
 
+/* Formular ......*/
 #formular {
-	width: 400px;
+	width: 300px;
 	height: 500px;
 	box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #483D8B;
     text-align: center;
-    position: center;
+    position: relative;
     margin: auto;
     padding: 10px;
-    margin-top: 5%;
+    margin-top: -38%;
 }
 
-#deco img {
-	width: 350px;
-	height: 350px;
-	float: left;
+#decoration  {
+    width: 350px;
+    height: 500px;
+	position: relative;
+	left: 18%;
+	margin-top: 4%;
+	margin-bottom: 3%;
+}
 
+#decoration img{
+	width: 350px;
+	height: 510px;
+	
+	box-shadow: 3px 8px 5px 3px #808018;
+	border-radius: 6px;
 }
 
 
@@ -397,3 +512,31 @@ footer {
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+#blockTitle{
+	margin-top: 40%;
+	margin-bottom: -15%;
+}
+
+#titleCreator h1 {
+	text-align: center;
+	color: #808018;
+	margin-bottom: -2%;
+}
+
+#titleCreator h3 {
+	text-align: center;
+	color: #808018;
+	position: relative;
+
+}
+
+/* just for a period */
+#warning {
+ text-align: center;
+font-size: 6em;
+color: red;
+}
+
+
+

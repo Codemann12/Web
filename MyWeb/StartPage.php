@@ -1,9 +1,8 @@
 <?php 
  session_start();
 
-      if (!isset($_POST['email']) && !isset($_POST['password'])
-          || empty($_POST['email']) || empty($_POST['password'])) {
-      	  header("Location: log_in_error.php");
+      if (!isset($_POST['email']) && !isset($_POST['password']) || empty($_POST['email']) ||empty($_POST['password'])){
+      	 header("Location: LogInError.php");
          // sql loading...
       	}
 
@@ -13,6 +12,6 @@
         $_SESSION['error_log_in'] = "password or email wrong..."; // would be handel properly with Mysql
 
 
-   include 'welcome_user.php'; 
+   include 'WelcomeUser.php'; 
 
 ?>
