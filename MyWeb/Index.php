@@ -25,7 +25,7 @@
  <!--  header will be bind with the iclude function
        <?php include("Header.php"); ?>  -->
 
-        <div id= "header">
+        <div id= "headerDecoration">
         	   <h1>Hair<span>S</span>tyle<d>.com</d></h1>
              <sa> <a href=" LogIn.php">  My HairStyle</a></sa>
                  <nav>
