@@ -103,19 +103,21 @@ header img{
 	  margin-left: -2%;
 	  margin-right: -0.7%;
 	  width: auto;
-	 height: 140px;
-	 background-color: #33001a;
+	  height: 140px;
+	  background-color: #33001a;
    }
 
 nav ul {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    color: white;
 }
 
 nav a {
     font-size: 1em;
     padding-bottom: 5px;
+    color: white;
     
 }
 
@@ -141,6 +143,8 @@ input[type="submit"]{
   width: 100%;
   position: relative
 }
+
+
 @media screen and (max-width: 1370px){
 .searchTerm {
   float: left;
@@ -221,11 +225,46 @@ input[type="submit"]{
 }
 
 
+h1.Blocktitle{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: normal;
+	color: #FF00FF;
+}
+
+
+ul.links{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+sa.links{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+body.unitClass{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
+footer.footerDecoration{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+
 #all0 {
 	display: flex;
 	overflow-x: scroll;
 	overflow-y: hidden;
-	margin-top: 20%;
+	margin-top: 16%;
 	
 
 }
@@ -488,6 +527,7 @@ footer {
     background-color: #808018;
     text-align: center;
     position: relative;
+
 }
 
 .contact{
@@ -554,6 +594,7 @@ footer {
 
 #formular p {
 	color: white;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 #formular-wraper {
@@ -564,7 +605,7 @@ footer {
 }
 
 #blockTitle{
-	margin-top: 40%;
+	margin-top: 35%;
 	margin-bottom: -15%;
 }
 
@@ -588,17 +629,109 @@ font-size: 6em;
 color: red;
 }
 
-.Slide img{
-height: 400px;
+
+.radio-item {
+  display: flex;
+  position: relative;
+  padding: 0 6px;
+  margin: 10px 0 0;
 }
 
-.Slide{
-
- height: 400px;
- width: auto;
- margin-top: 30%;
- margin-bottom: -34%;
+.radio-item input[type='radio'] {
+  display: none;
 }
+
+.radio-item label {
+  color: #666;
+  font-weight: normal;
+}
+
+.radio-item label:before {
+  content: " ";
+  display: inline-block;
+  position: relative;
+  top: 5px;
+  margin: 0 5px 0 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 11px;
+  border: 2px solid #004c97;
+  background-color: transparent;
+}
+
+.radio-item input[type=radio]:checked + label:after {
+  border-radius: 11px;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  top: 9px;
+  left: 10px;
+  content: " ";
+  display: block;
+  background: #004c97;
+}
+
+
+.capSize-option-item select{
+	width: 900px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+
+.hairType-option-item select{
+	width: 900px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+
+.hairLength-option-item select{
+	width: 900px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+
+.hairColor-option-item select{
+	width: 900px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+.hairDensity-option-item select{
+	width: 900px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+
+.processingTime-option-item select{
+	width: 900px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+
+.privateWigFitting-option-item select{
+	width: 900px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+.styling-option-item select{
+	width: 900px;
+	height: 40px;
+	border-radius: 10px;
+}
+
+
+.quantity-option-item select{
+	width: 900px;
+	height: 40px;
+	border-radius: 10px;
+}
+
 
 
 

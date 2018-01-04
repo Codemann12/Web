@@ -38,8 +38,7 @@
 			 <input type="email"    name="email" placeholder="email"><br> <br>
 			 <input type="password" name="password" placeholder="Password"><br> <br>
 			 <input type="submit"   name="loggin" value="log in"  > <br><br>
-             Durch deine Registrierung stimmst du unseren 
-             Nutzungsbedingungen und unserer Datenrichtlinie zu.
+             By registering, you agree to our Terms of Use and our Privacy Policy.
             <p> If you don't have an account just create one <a href="SignUp.php" 
             	style="color: #008B8B" > here </a> </p>
 		</p>

@@ -38,8 +38,7 @@
 			 <input type="password" name="password" placeholder="Password"><br> <br>
 			 <input type="password" name="passwordVerify" placeholder=" repeat Password"><br> <br>
 			 <input type="submit"   name="register" value="Sign up"> <br><br>
-            Durch deine Registrierung stimmst du unseren 
-            Nutzungsbedingungen und unserer Datenrichtlinie zu.
+             By registering, you agree to our Terms of Use and our Privacy Policy.
             <p> If you have an account then <a href="LogIn.php" style="color: #808018;"> log in</a> </p>
 		</p>
 	</form>

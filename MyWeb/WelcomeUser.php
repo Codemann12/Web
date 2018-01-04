@@ -23,7 +23,7 @@
                      <ul>
                        <li><a href="#"> Styles</a></li>
                        <li><a href="#"> Sale</a></li>
-                       <li><a href="#"> Coming Soon</a></li>
+                       <li><a href="CreateYourOwnUnit.php"> Create your own Unit</a></li>
                        <li><a href="LogOut.php"> Log out</a></li>
                      </ul>
                  </nav>
