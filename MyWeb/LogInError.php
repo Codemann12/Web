@@ -8,7 +8,7 @@
    <head>
 	    <meta charset="utf-8">
     	<link rel="stylesheet" type="text/css" href="IndexStyle.css">
-    	<link rel="shortcut icon" href="Images/icon.ico" />
+    	<link rel="shortcut icon" href="Images/LT.ico" />
 	    <title>Error</title>
    </head>
 
@@ -21,6 +21,7 @@
     <?php include("Header.php"); ?>
 
 	<div id="titleCreator">
+		<a href="Index.php"><img src="Images/icon.jpeg" style="width: 70px; height: 70px; position: fixed;"></a>
 		<h1>Log in</h1>
 		<h3 style="color: red"> Error log in: 
 			   <?php echo $_SESSION['error_log_in'] ?></h3>

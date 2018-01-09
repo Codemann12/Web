@@ -11,38 +11,16 @@
  <meta charset="utf-8">
    <link rel="stylesheet" type="text/css" href="IndexStyle.css">
      <div id="icon">
-      <link rel="shortcut icon" href="Images/icon.ico" />
+      <link rel="shortcut icon" href="Images/LT.ico" />
      </div>
- <title>HairStyle</title>
+ <title>LT_Wig</title>
 </head>
 
 
 <!-- page body -->
 <body>
 <div id="pageBody">
-  <div id= "headerDecoration">
-    <h1>Hair<span>S</span>tyle<d>.com</d></h1>
-      <sa class="links"> <a href=" LogIn.php">My HairStyle</a></sa>
-        <nav>
-          <ul class="links">
-             <li><a href="#"> Styles</a></li>
-             <li><a href="#"> Sale</a></li>
-             <li><a href="CreateYourOwnUnit.php"> Create your own Unit</a></li>
-             <li><a href="LogIn.php"> Log in</a></li>
-             <li><a href="SignUp.php"> Sign up</a></li>
-          </ul>
-        </nav>
-                    
-
-<!-- search field --> 
-  <div class="wrap">
-   <div class="search">
-     <input type="text" class="searchTerm" placeholder="What are you looking for?">
-     <button type="submit" class="searchButton"></button>
-   </div>
-  </div>
-</div>
-
+<?php include 'HeaderDecoration.php'; ?>
 
 
 <div id="blockTitle">

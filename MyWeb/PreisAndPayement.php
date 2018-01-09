@@ -6,7 +6,7 @@
     	  <meta charset="utf-8">
     	     <link rel="stylesheet" type="text/css" href="IndexStyle.css">
     	        <div id="icon">
-    	          <link rel="shortcut icon" href="Images/icon.ico" />
+    	          <link rel="shortcut icon" href="Images/LT.ico" />
     	        </div>
 	      <title>Einkauf</title>
     </head>

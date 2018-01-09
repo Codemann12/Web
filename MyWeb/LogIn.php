@@ -7,19 +7,21 @@
    <head>
 	    <meta charset="utf-8">
     	<link rel="stylesheet" type="text/css" href="IndexStyle.css">
-    	<link rel="shortcut icon" href="Images/icon.ico" />
+    	<link rel="shortcut icon" href="Images/LT.ico" />
 	    <title>log in</title>
    </head>
-
-
 
 <body >
 
   <div id="formular-wraper">
     <?php include("Header.php"); ?>
 	<div id="titleCreator">
+		<a href="Index.php"><img src="Images/icon.jpeg" style="width: 70px; height: 70px; position: fixed;"></a>
 		<h1>Log in</h1>
 	</div>
+
+      
+
 
     <div id="decoration">
 	  <p><img src="Images/bbformular.jpg"/></p>

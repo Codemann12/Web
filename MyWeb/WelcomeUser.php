@@ -4,41 +4,30 @@
    <head>
 	    <meta charset="utf-8">
     	<link rel="stylesheet" type="text/css" href="IndexStyle.css">
-    	<link rel="shortcut icon" href="Images/icon.ico" />
+    	<link rel="shortcut icon" href="Images/LT.ico" />
 	    <title>Welcome <?php echo htmlspecialchars($_SESSION['surname']); ?></title>
    </head>
 
 <!-- page body -->
 <body>
   <div id="pageBody">
+  <div id= "headerDecoration">
+    <div class="iconImage">
+      <a href="Index.php"><img src="Images/icon.jpeg"></a>
+    </div>
+        <nav>
+          <ul class="links">
+             <li><a href=" #"> <?php echo htmlspecialchars($_SESSION['surname']); ?>  
+              HairStyle</a></li>
+             <li><a href="#"> Styles</a></li>
+             <li><a href="#"> Sale</a></li>
+             <li><a href="CreateYourOwnUnit.php"> Create your own Unit</a></li>
+             <li><a href="LogOut.php"> Log out</a></li>
+          </ul>
+        </nav>
+   
+</div>
 
- <!--  header will be bind with the iclude function
-       <?php include("Header.php"); ?>  -->
-
-        <div id= "headerDecoration">
-             <h1>Hair<span>S</span>tyle<d>.com</d></h1>
-             <sa> <a href=" #"> <?php echo htmlspecialchars($_SESSION['surname']); ?>  
-              HairStyle</a></sa>
-                 <nav>
-                     <ul>
-                       <li><a href="#"> Styles</a></li>
-                       <li><a href="#"> Sale</a></li>
-                       <li><a href="CreateYourOwnUnit.php"> Create your own Unit</a></li>
-                       <li><a href="LogOut.php"> Log out</a></li>
-                     </ul>
-                 </nav>
-        
-       
-            
-
-<!-- search field --> 
-             <div class="wrap">
-                  <div class="search">
-                      <input type="text" class="searchTerm" placeholder="What are you looking for?">
-                      <button type="submit" class="searchButton"></button>
-                  </div>
-             </div>
-      </div>
 
     <div id="blockTitle">
       <h1>Style of the day </h1>

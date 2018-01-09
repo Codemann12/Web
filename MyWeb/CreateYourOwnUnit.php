@@ -7,19 +7,20 @@
    <meta charset="utf-8">
      <link rel="stylesheet" type="text/css" href="IndexStyle.css">
        <div id="icon">
-         <link rel="shortcut icon" href="Images/icon.ico" />
+         <link rel="shortcut icon" href="Images/LT.ico" />
        </div>
-     <title>HairStyle</title>
+     <title>LT_Wig</title>
  </head>
 
 <body class="unitClass">
 <?php include 'Header.php'; ?>
+<?php include 'HeaderDecoration.php'; ?>
 
 <h3 style="color: black">Create your own unit</h3>
 <p>All our wigs on <a href="index.php" style="color: black">HairStyle.com</a> are custom made – no matter the style. However, if you’re looking for something to compliment your individual and unique personality you can customise your <br> own wig from start to finish! Decide exactly how you would like your wig to be constructed from hair type to cut and colour and create your own personal unit that will ensure that you stand <br> out from the crowd.</p>
 
 <div id="unit">
-	<form method="POST" action="StartPage.php">
+	<form method="POST" action="MailHandler.php">
 		<p> 
 
 	   <div class="radio-item">
@@ -162,7 +163,8 @@
            <option value="10">10</option>
        </select>
       </div><br/>
-      <input type="submit" name="ADD TO BAG" style="color: black; width: 900px; height: 40px;">
+      <input type="submit" name="submit" style="width: 450px; height: 40px;">
+      <input type="reset" name="reset" style="width: 450px; height: 40px; ">
 
 
 <p>As all our linda Tcheuffa wigs (LTwigs) are custom Hand made, construction start within 48 hours of <br>purchase.</p><p>
@@ -179,6 +181,7 @@ Do not expose the hair to too much heat, chemicals as this can damage the textur
 </p>
 </form>
 </div>
+
 
 <?php include("Footer.php"); ?>
 </body>
