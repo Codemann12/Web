@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
    <head>
@@ -17,12 +16,12 @@
     </div>
         <nav>
           <ul class="links">
-             <li><a href=" #"> <?php echo htmlspecialchars($_SESSION['surname']); ?>  
-              HairStyle</a></li>
-             <li><a href="#"> Styles</a></li>
-             <li><a href="#"> Sale</a></li>
-             <li><a href="CreateYourOwnUnit.php"> Create your own Unit</a></li>
-             <li><a href="LogOut.php"> Log out</a></li>
+             <li><a href=" #" style="color: white"> <?php echo htmlspecialchars($_SESSION['surname']); ?>  
+              LT_Wig</a></li>
+             <li><a href="#" style="color: white"> Styles</a></li>
+             <li><a href="#" style="color: white"> Sale</a></li>
+             <li><a href="CreateYourOwnUnit.php" style="color: white"> Create your own Unit</a></li>
+             <li><a href="LogOut.php" style="color: white"> Log out</a></li>
           </ul>
         </nav>
    
@@ -30,180 +29,149 @@
 
 
     <div id="blockTitle">
-      <h1>Style of the day </h1>
+      <h1>Style of the day </h1> <?php echo $_COOKIE['email']; ?>
     </div>
- <!-- first section containing many other sections -->           
-      <div id="all0">
-            <div class="inner-all0">  <!-- for the scrollbar -->
-             
-              <a href="PreisAndPayement.php">
-                <section id="left_section0">
-                   <div id="percentage_image">
-                     <img src="Images/percentage.jpg" />
-                   </div> 
-                   <div id="description">
-                     <p>???</p>
-                     <p>45€</p>
-                   </div>
-                </section>
-              </a>
+<div class="flex-container">
+<div class="image-container">
+  <img src="Images/hair9.jpg">
+  <p style="color: #87CEFA;">
+Description:<p style="color: #CD5C5C;"> EUR 60</p>
+  </p>
+</div>
+
+<div class="image-container">
+  <img src="Images/hair4.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
 
 
-              <a href="PreisAndPayement.php">
-                <section id="left_section00">
-                     <div id="percentage_image">
-                        <img src="Images/percentage.jpg" />
-                     </div> 
-                     <div id="description">
-                        <p>??</p>
-                        <p>85€</p>
-                     </div>
-                </section>
-              </a>
+<div class="image-container">
+  <img src="Images/hair8.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
+
+<div class="image-container">
+  <img src="Images/hair7.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
 
 
-               <a href="PreisAndPayement.php">
-                <section id="left_section01">
-                     <div id="percentage_image">
-                         <img src="Images/percentage.jpg" />
-                     </div> 
-                     <div id="description">
-                         <p>??</p>
-                         <p>145€</p>
-                     </div>
-               </section>
-              </a>
+<div class="image-container">
+  <img src="Images/hair3.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
 
-              
-              <a href="PreisAndPayement.php">
-               <section id="left_section02">
-                   <div id="percentage_image">
-                     <img src="Images/percentage.jpg" />
-                   </div> 
-                   <div id="description">
-                     <p>??</p>
-                     <p>405€</p>
-                   </div>
-               </section>
-              </a>
+<div class="image-container">
+  <img src="Images/hair1.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
+
+<div class="image-container">
+  <img src="Images/1.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
 
 
-              <a href="PreisAndPayement.php">
-               <section id="left_section03">
-                   <div id="percentage_image">
-                     <img src="Images/percentage.jpg" />
-                   </div> 
-                   <div id="description">
-                     <p>???</p>
-                     <p>405€</p>
-                   </div>
-               </section>
-              </a>
+<div class="image-container">
+  <img src="Images/hair9.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
 
 
-              <a href="PreisAndPayement.php">
-               <section id="left_section04">
-                   <div id="percentage_image">
-                     <img src="Images/percentage.jpg" />
-                   </div> 
-                   <div id="description">
-                     <p>???</p>
-                     <p>405€</p>
-                   </div>
-               </section>
-              </a>
-
-              <a href="PreisAndPayement.php">
-               <section id="left_section05">
-                   <div id="percentage_image">
-                     <img src="Images/percentage.jpg" />
-                   </div> 
-                   <div id="description">
-                     <p>???</p>
-                     <p>405€</p>
-                   </div>
-               </section>
-              </a>
-
-              <a href="PreisAndPayement.php">
-               <section id="left_section06">
-                   <div id="percentage_image">
-                     <img src="Images/percentage.jpg" />
-                   </div> 
-                   <div id="description">
-                     <p>???</p>
-                     <p>405€</p>
-                   </div>
-               </section>
-              </a>
-      
-
-      
-      
+<div class="image-container">
+  <img src="Images/hair6.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
 
 
 
-            </div>
-       </div>
-          
-<!-- More section -->
-<h1>Neu bei HairStyle</h1>
-     <div id="all1">  
-          <div class="inner-all1">
-            
-            <section id="left_section10"> 
-               <div id="description">
-                 <p>???</p>
-                 <p>505€</p>
-               </div>
-            </section>
-     
+<div class="image-container">
+  <img src="Images/hair5.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
 
-            <section id="left_section11"> 
-               <div id="description">
-                 <p>???</p>
-                 <p>505€</p>
-              </div>
-            </section>
+<div class="image-container">
+  <img src="Images/hair8.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
 
-            <section id="left_section11"> 
-               <div id="description">
-                 <p>???</p>
-                 <p>505€</p>
-              </div>
-            </section>
-
-            <section id="left_section11"> 
-               <div id="description">
-                 <p>???</p>
-                 <p>505€</p>
-              </div>
-            </section>
-
-            <section id="left_section11"> 
-               <div id="description">
-                 <p>???</p>
-                 <p>505€</p>
-              </div>
-            </section>
-
-            <section id="left_section11"> 
-               <div id="description">
-                 <p>???</p>
-                 <p>505€</p>
-              </div>
-            </section>
+<div class="image-container">
+  <img src="Images/hair7.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
 
 
-            <section id="left_section11"> 
-               <div id="description">
-                 <p>???</p>
-                 <p>505€</p>
-              </div>
-            </section>
+<div class="image-container">
+  <img src="Images/hair3.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
 
-     </div>
-  </div>
+<div class="image-container">
+  <img src="Images/hair1.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
+
+<div class="image-container">
+  <img src="Images/1.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
+
+
+<div class="image-container">
+  <img src="Images/hair9.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
+
+
+<div class="image-container">
+  <img src="Images/hair6.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
+
+
+
+<div class="image-container">
+  <img src="Images/hair5.jpg">
+  <p style="color: #87CEFA;">
+Description:
+  </p>
+</div>
+
+
+
+</div>    
 <!-- footer -->
 
 <?php include("Footer.php"); ?>

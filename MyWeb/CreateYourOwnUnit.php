@@ -1,5 +1,8 @@
 <?php 
  session_start();
+ if($_SESSION['login'] == false){
+  header("Location: LogIn.php");
+ }
 ?>
 <!DOCTYPE html>
 <html>
@@ -14,7 +17,20 @@
 
 <body class="unitClass">
 <?php include 'Header.php'; ?>
-<?php include 'HeaderDecoration.php'; ?>
+
+<div id= "headerDecoration">
+    <div class="iconImage">
+      <a href="Index.php"><img src="Images/icon.jpeg"></a>
+    </div>
+        <nav>
+          <ul class="links">
+             <li><a href=" Index.php"><?php echo htmlspecialchars($_SESSION['surname']); ?>  HairStyle</a></li>
+             <li><a href="#"> Styles</a></li>
+             <li><a href="#"> Sale</a></li>
+          </ul>
+        </nav>
+</div>
+
 
 <h3 style="color: black">Create your own unit</h3>
 <p>All our wigs on <a href="index.php" style="color: black">HairStyle.com</a> are custom made – no matter the style. However, if you’re looking for something to compliment your individual and unique personality you can customise your <br> own wig from start to finish! Decide exactly how you would like your wig to be constructed from hair type to cut and colour and create your own personal unit that will ensure that you stand <br> out from the crowd.</p>

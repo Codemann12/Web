@@ -1,31 +1,30 @@
 <?php 
  session_start();
+ $_SESSION['login'] =false;
 ?>
+
 
 <!DOCTYPE html>
 <html>
    <head>
 	    <meta charset="utf-8">
-    	<link rel="stylesheet" type="text/css" href="IndexStyle.css">
+    	<link rel="stylesheet" type="text/css" href="IndexStyle.css?version=51">
     	<link rel="shortcut icon" href="Images/LT.ico" />
 	    <title>log in</title>
    </head>
 
 <body >
 
-  <div id="formular-wraper">
-    <?php include("Header.php"); ?>
-	<div id="titleCreator">
-		<a href="Index.php"><img src="Images/icon.jpeg" style="width: 70px; height: 70px; position: fixed;"></a>
-		<h1>Log in</h1>
-	</div>
-
-      
-
-
-    <div id="decoration">
-	  <p><img src="Images/bbformular.jpg"/></p>
-    </div>
+<div id="formular-wraper">
+ <?php include("Header.php"); ?>
+<div id="titleCreator">
+   <a href="Index.php"><img src="Images/icon.jpeg" style="width: 70px; height: 70px; position: fixed;"></a>
+   <h1>Log in</h1>
+</div>
+    
+<div id="decoration">
+ <p><img src="Images/bbformular.jpg"/></p>
+</div>
 
 <div id="formular"  >
 	<form method="POST" action="StartPage.php">

@@ -21,6 +21,36 @@
     font-style: normal;
 }
 
+
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 7%;
+	padding-top: 15%;
+
+}
+
+.image-container {
+	height: 490px;
+	width: 300px;
+	box-shadow: 0px 2px 5px #1c1a19;
+	border-radius: 5px;
+	margin-right: 2%;
+	margin-bottom: 2%;
+}
+
+
+
+.image-container img{
+  width: 290px;
+  height: 290px;
+  margin-top: 20%;
+  margin-left: 1.5%;
+}
+
+
+
 header {
 	background-color: black;
 	margin-right: -0.4%;
@@ -57,6 +87,7 @@ header {
 
 #header  a:hover{
 	text-decoration: underline;
+	color: white;
 	font-size: 1em;
 }
 
@@ -64,6 +95,7 @@ header {
 #formular a:hover{
 	text-decoration: underline;
 	font-size: 1.5em;
+	color: white;
 }
 /* design  for the header
 */
@@ -79,7 +111,6 @@ header img{
 }
 
 
-
 #headerDecoration {
   margin-top: -1.6%;
   margin-bottom: -30%;
@@ -87,9 +118,9 @@ header img{
   margin-left: -2%;
   margin-right: -0.7%;
   width: auto;
-  background-color: #33001a;
-
+  background-color: #404040; 
 }
+
 
 #headerDecoration  a:hover{
 	text-decoration: underline;
@@ -126,107 +157,22 @@ input[type="reset"]{
     border-radius: 10px;
 }
 
-/* search bar
-.search {
-  width: 100%;
-  position: relative
-}
-*/
 
-@media screen and (max-width: 1370px){
-.searchTerm {
-  float: left;
-  width: 100%;
-  border: 3px solid #00B4CC;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px;
-  outline: none;
-  color: #9DBFAF;
-  margin-top: -70%;
-}
 
-.searchTerm:focus{
-  color: #00B4CC;
-}
 
-.searchButton {
-  position: absolute;  
-  right: -50px;
-  width: 40px;
-  height: 36px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
-  background-image: url(Images/searchicon.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 20px;
-  margin-top: -70%;
-}
- }
-/*
-
-.searchTerm {
-  float: left;
-  width: 100%;
-  border: 3px solid #00B4CC;
-  padding: 5px;
-  height: 20px;
-  border-radius: 5px;
-  outline: none;
-  color: #9DBFAF;
-  margin-top: -75%;
-}
-
-.searchTerm:focus{
-  color: #00B4CC;
-}
-
-.searchButton {
-  position: absolute;  
-  right: -50px;
-  width: 40px;
-  height: 36px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
-  background-image: url(Images/searchicon.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  color: #fff;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 20px;
-  margin-top: -75%;
-}
-/*Resize the wrap to see the search bar change! 
-.wrap{
-  width: 30%;
-  position: none; /* kill the search bar 
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-*/
 h1.Blocktitle{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 30px;
 	font-weight: normal;
-	color: #FF00FF;
+	color: black;
 }
 
 
 ul.links{
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 	font-size: 20px;
 	font-weight: normal;
 }
-
-
 
 
 body.unitClass{
@@ -239,281 +185,19 @@ body.unitClass{
 	margin-bottom: 30%;
 }
 
-
 footer.footerDecoration{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 20px;
+	font-size: 15px;
 	font-weight: normal;
-}
-
-
-#all0 {
-	display: flex;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	margin-top: 16%;
-	
-
-}
-
-
-.inner-all0{
-	display: flex;;
-	height: 350px;
-	width: 10000px;
-}
-
-
-/* section design0 */
-#left_section0 {
-	width: 300px;
-	height: 300px;
-	margin-right: 5px;
-	box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 2px;
-	background: url("Images/hair7.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	 
-}
-
-/* description at the end on f the section */
-#left_section0 {
-	position: relative;
-}
-
-
-#description {
-	background-color: white;
-	position:absolute; 
-	bottom:0;
-	color: red;
-}
-
-
-/* image at the coner of the section */
-#percentage_image {
-	position: relative; 
-}
-
-
-#percentage_image img {
-	width: 75px;
-    height: 75px;
-	position: absolute;
-    top: 0px;
-    right: 0px;
-    background-color: white;   
-}
-
-
-
-/* section design00 */
-#left_section00 {
-	width: 300px;
-	height: 300px;
-	margin-right: 1%;
-	margin-left: 2%;
-	box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 5px;
-	background: url("Images/hair6.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	 
-}
-
-/* description at the end on  the section */
-#left_section00 {
-	position: relative;
-}
-
-
-/* section design00 */
-#left_section01 {
-	width: 300px;
-	height: 300px;
-	margin-right: 1%;
-	margin-left: 4%;
-	box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 5px;
-	background: url("Images/hair3.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	 
-}
-
-/* description at the end on f the section */
-#left_section01 {
-	position: relative;
-}
-
-
-
-/* section design02 */
-#left_section02 {
-	width: 300px;
-	height: 300px;
-	margin-right: 1%;
-	margin-left: 6%;
-	box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 5px;
-	background: url("Images/hair5.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	 
-}
-
-/* description at the end on f the section */
-#left_section02 {
-	position: relative;
-}
-
-
-/* section design03 */
-#left_section03 {
-	width: 300px;
-	height: 300px;
-	margin-right: 1%;
-	margin-left: 10%;
-	box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 10px;
-	background: url("Images/hair4.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	 
-}
-
-/* description at the end on f the section */
-#left_section03 {
-	position: relative;
-}
-
-
-/* section design03 */
-#left_section04 {
-	width: 300px;
-	height: 300px;
-	margin-right: 1%;
-	margin-left: 14%;
-	box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 14px;
-	background: url("Images/hair1.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	 
-}
-
-/* description at the end on f the section */
-#left_section04 {
-	position: relative;
-}
-
-
-/* section design03 */
-#left_section05 {
-	width: 300px;
-	height: 300px;
-	margin-right: 1%;
-	margin-left: 18%;
-	box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 10px;
-	background: url("Images/hair2.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	 
-}
-
-/* description at the end on f the section */
-#left_section05 {
-	position: relative;
-}
-
-
-
-
-/* section design03 */
-#left_section06 {
-	width: 300px;
-	height: 300px;
-	margin-right: 1%;
-	margin-left: 22%;
-	box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 10px;
-	background: url("Images/hair5.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	 
-}
-
-/* description at the end on f the section */
-#left_section06 {
-	position: relative;
-}
-
-#all1 {
-	display: flex;
-    background-color: #bebebe;
-	width: 100%;
-	height: 350px;
-	overflow-x: scroll;
-	overflow-y: hidden;
-	margin-top: 4%;
-
-}
-
-
-.inner-all1 {
-	display: flex;
-	width: 10000px;
-
-}
-
-
-/* section design02 */
-#left_section10 {
-	width: 300px;
-	height: 300px;
-	margin-right: 1%;
-	margin-left:  1%;
-	margin-top: 1%;
-	box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 5px;
-	background: url("Images/hair8.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;	 
-}
-
-/* description at the end on f the section */
-#left_section10 {
-	position: relative;
-}
-
-
-/* section design02 */
-#left_section11 {
-	width: 300px;
-	height: 300px;
-	box-shadow: 0px 2px 5px #1c1a19;
-    border-radius: 5px;
-    margin-right: 1%;
-    margin-top: 1%;
-	background: url("Images/hair9.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;	 
-}
-
-/* description at the end on f the section */
-#left_section11 {
-	position: relative;
 }
 
 
 footer {
 	margin-top: 5%;
-    padding: 0.5em;
-    background-color: #808018;
-    text-align: center;
-    position: relative;
+  padding: 0.5em;
+  background-color: #404040;
+  text-align: center;
+  position: relative;
 
 }
 
@@ -521,34 +205,8 @@ footer {
 	text-align: top-right;
 }
 
-/* Formular ......*/
-@media all and (max-width: 1365px){
-  #formular {
-     width: 300px;
-	 height: 500px;
-	 box-shadow: 0px 2px 5px #1c1a19;
-     border-radius: 10px;
-     background-color: #483D8B;
-     text-align: center;
-     position: relative;
-     margin: auto;
-     padding: 10px;
-     margin-top: -38%;
-    }
 
-  #decoration  {
-    width: 350px;
-    height: 500px;
-	position: relative;
-	left: 18%;
-	margin-top: 5%;
-	margin-bottom: 4%;
-   }
-}
-
-
-
-#formular {
+#formular{
    width: 300px;
    height: 500px;
    box-shadow: 0px 2px 5px #1c1a19;
@@ -571,11 +229,41 @@ footer {
 }
 
 #decoration img{
-	width: 350px;
-	height: 510px;
-	box-shadow: 3px 8px 5px 3px #808018;
-	border-radius: 6px;
+  width: 350px;
+  height: 510px;
+  box-shadow: 3px 8px 5px 3px #808018;
+  border-radius: 6px;
 }
+
+/* Formular ......*/
+@media all and (max-width: 1490px){
+
+  ul.links{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  display: inline-block;
+  margin-top: 1%;
+}
+ 
+ 
+
+#formular{
+     width: 300px;
+     height: 500px;
+     box-shadow: 0px 2px 5px #1c1a19;
+     border-radius: 10px;
+     background-color: #483D8B;
+     text-align: center;
+     margin: auto;
+     margin-top: 5%;  
+}
+
+#decoration{
+  display: none;
+ }
+}
+
 
 
 

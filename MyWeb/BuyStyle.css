@@ -1,0 +1,9 @@
+.differentImg{
+	display: flex;
+	padding-top: 30%;
+}
+
+
+.smallImg{
+	display: table-column;
+}
