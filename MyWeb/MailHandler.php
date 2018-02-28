@@ -20,8 +20,8 @@ if(isset($_POST['submit'])){
     $quantity = $_POST['quantity'];
     $subject = "Nouvelle commande";
     $subject2 = "Copy of your form submission";
-    $message = htmlspecialchars($first_name . " " . $last_name . " a besoin d'une perruque avec les caracteristiques suivantes:\n" . "closure: ".$closure."\n".
-        "Type de meche: ".$hairType."\n".
+    $message = htmlspecialchars($first_name . " " . $last_name . " New wig with the following  features:\n" . "closure: ".$closure."\n".
+        "hair type: ".$hairType."\n".
         "Longueur de meche: ".$hairLength."\n".
         "Couleur de meche: ".$hairColor."\n".
         "Densite de meche: ".$hairDensity."\n".

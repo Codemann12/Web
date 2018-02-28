@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
    <head>
@@ -29,7 +30,7 @@
 
 
     <div id="blockTitle">
-      <h1>Style of the day </h1> <?php echo $_COOKIE['email']; ?>
+      <h1>Style of the day </h1> 
     </div>
 <div class="flex-container">
 <div class="image-container">

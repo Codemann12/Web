@@ -1,6 +1,6 @@
 <?php 
  session_start();
- $_SESSION['login'] =false; // redirect logOut to a different page and remove this declaration
+ $_SESSION['login'] = false; // redirect logOut to a different page and remove this declaration
 ?>
 <!DOCTYPE html>
 <html>
@@ -30,9 +30,9 @@
 
 <div class="image-container">
   <a href="BuyHair9.php">
-  <img src="Images/hair9.jpg">
+  <img src="Images/lin1.jpeg">
   <p style="color: #87CEFA; font-family: Arial, Helvetica, sans-serif;
-   font-size: 15px;">
+   font-size: 18px;">
     description <p style="color: #CD5C5C;"> EUR 60</p>
   </p>
   </a>
@@ -40,7 +40,7 @@
 
 
 <div class="image-container">
-  <img src="Images/hair4.jpg">
+  <img src="Images/lin1.jpeg">
   <p style="color: #87CEFA; font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;">
 Description;

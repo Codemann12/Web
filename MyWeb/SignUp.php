@@ -1,7 +1,5 @@
-
 <?php 
  session_start();
-
 ?>
 <!DOCTYPE html>
 <html>
@@ -33,11 +31,11 @@
 <div id="formular">
 	<form method="post" action="WelcomePage.php">
 		<p> <br>
+			 <input type="text"     name="name" placeholder="Name"> <br><br>
 			 <input type="text"     name="surname" placeholder=" Surname"> <br><br>
-			 <input type="text"     name="name" placeholder="Name"> <br> <br>
-			 <input type="email"    name="email" placeholder="email"><br> <br>
-			 <input type="password" name="password" placeholder="Password"><br> <br>
-			 <input type="password" name="passwordVerify" placeholder=" repeat Password"><br> <br>
+			 <input type="email"    name="email" placeholder="Email"><br><br>
+			 <input type="password" name="password" placeholder="Password"><br><br>
+			 <input type="password" name="passwordVerify" placeholder="Repeat Password"><br><br>
 			 <input type="submit"   name="register" value="Sign up"> <br><br>
              By registering, you agree to our Terms of Use and our Privacy Policy.
             <p> If you have an account then <a href="LogIn.php" style="color: #808018;"> log in</a> </p>
