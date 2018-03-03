@@ -1,11 +1,8 @@
 <?php 
 session_start();
-
-
-
 if(isset($_POST['submit'])){
-    $to = "fbcedric@yahoo.fr"; // this is your Email address
-    $from = $_SESSION['email']; // this is the sender's Email address
+    $to = "fbcedric@yahoo.fr"; 
+    $from = $_SESSION['email']; 
     $first_name =  $_SESSION['surname'];
     $last_name =$_SESSION['name'];
     $closure = $_POST['closure'];
@@ -22,16 +19,15 @@ if(isset($_POST['submit'])){
     $subject2 = "Copy of your form submission";
     $message = htmlspecialchars($first_name . " " . $last_name . " New wig with the following  features:\n" . "closure: ".$closure."\n".
         "hair type: ".$hairType."\n".
-        "Longueur de meche: ".$hairLength."\n".
-        "Couleur de meche: ".$hairColor."\n".
-        "Densite de meche: ".$hairDensity."\n".
+        "Hair length: ".$hairLength."\n".
+        "Hair color: ".$hairColor."\n".
+        "Hair density: ".$hairDensity."\n".
         "Style: ".$styling."\n".
-        "Temps necessaire pour la creation: ".$processingTime."\n".
+        "Processing time ".$processingTime."\n".
         "Rendez-vous: ".$privateWigFitting."\n".
-        "Plus d'informations de la part ". $_SESSION['name'].":\n".$addInfo."\n".
-        "Quantite: ".$quantity."\n");
+        "More informations from ". $_SESSION['name'].":\n".$addInfo."\n".
+        "Quantity: ".$quantity."\n");
     $message2 = "Here is a copy of your message " . $first_name . "\n\n" . "blabla";
-
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
     mail($to,$subject,$message,$headers);

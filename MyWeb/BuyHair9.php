@@ -22,11 +22,13 @@
 <?php include 'HeaderDecoration.php'; ?>
 
 <div class="differentImg">
-	<p style="color: red">jdsfgidsgndsf</p>
-	<div class="smallImg">uitzuitzu</div>
+<script src="js/Mousquetaires.js"></script>
+
 </div>
 
 
 </body>
-
+<?php
+include 'Footer.php';
+?>
 </html>

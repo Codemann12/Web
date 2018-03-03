@@ -40,152 +40,190 @@
 
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/lin1.jpeg">
   <p style="color: #87CEFA; font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;">
 Description;
   </p>
+</a>
 </div>
 
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair8.jpg">
    <p style="color: #87CEFA; font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;">
 Description:
   </p>
+</a>
 </div>
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair8.jpg">
    <p style="color: #87CEFA; font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;">
 Description:
   </p>
+</a>
 </div>
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair8.jpg">
    <p style="color: #87CEFA; font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;">
 Description:
   </p>
+</a>
 </div>
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair7.jpg">
     <p style="color: #87CEFA; font-family: Arial, Helvetica, sans-serif;
    font-size: 15px;">
 Descrition:
   </p>
+</a>
 </div>
 
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair3.jpg">
   <p style="color: #87CEFA;">
  Descrition:
   </p>
+</a>
 </div>
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair1.jpg">
   <p style="color: #87CEFA;">
 Descrition:
   </p>
+</a>
 </div>
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/1.jpg">
   <p style="color: #87CEFA;">
 Descrition:
   </p>
+</a>
 </div>
 
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair9.jpg">
   <p style="color: #87CEFA;">
 Descrition:
   </p>
+</a>
 </div>
 
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair6.jpg">
   <p style="color: #87CEFA;">
 Descrition:
   </p>
+</a>
 </div>
 
 
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair5.jpg">
   <p style="color: #87CEFA;">
 Descrition:
   </p>
+</a>
 </div>
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair8.jpg">
   <p style="color: #87CEFA;">
  Descrition:
   </p>
+</a>
 </div>
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair7.jpg">
   <p style="color: #87CEFA;">
 Descrition:
   </p>
+</a>
 </div>
 
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair3.jpg">
   <p style="color: #87CEFA;">
 Descrition:
   </p>
+</a>
 </div>
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair1.jpg">
   <p style="color: #87CEFA;">
 Descrition:
   </p>
+</a>
 </div>
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/1.jpg">
   <p style="color: #87CEFA;">
 Descrition:
   </p>
+</a>
 </div>
 
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair9.jpg">
   <p style="color: #87CEFA;">
 Descrition:
   </p>
+</a>
 </div>
 
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair6.jpg">
   <p style="color: #87CEFA;">
 Descrition:
   </p>
+</a>
 </div>
 
 
 
 <div class="image-container">
+  <a href="BuyHair9.php">
   <img src="Images/hair5.jpg">
   <p>
 Descrition:
   </p>
+</a>
 </div>
 </div>         
 
