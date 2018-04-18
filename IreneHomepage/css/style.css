@@ -1,0 +1,222 @@
+.menu
+{
+	background-color: #78409a;
+	display: flex;
+	margin-top: -2%;
+	margin-left: 15%;
+	margin-right: 10%;
+	width: 65%;	
+}
+
+
+.icon-bar { margin-right: 10.1%;}
+
+.icon-bar a 
+{
+    float: right;
+    color: white;
+    font-size: 670%;    
+}
+
+
+.active {background-color: #4CAF50;}
+
+.dropbtn {
+    background-color: #4CAF50 ;
+    color: white;
+    padding: 55px;
+    font-size: 100%;
+    border: none;
+    margin-left: -50%;
+    margin-right: 20%;  
+}
+
+
+.dropdown_whohnen 
+{ 
+    text-align: center;
+    margin-right: 40%;
+    margin-left: -20%;  
+}
+
+.wohnen_content 
+{
+    display: none;
+    position: absolute;
+    background-color: #d5416e;
+    min-width: 170px;
+    box-shadow: 10px 8px 16px 10px rgba(0,1,1,0.2);
+    z-index: 3;
+    margin-left: -86px;
+}
+
+.wohnen_content a 
+{
+    color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_wohnen:hover .wohnen_content {display: block;}
+.dropdown_wohnen:hover .dropbtn {background-color: #3e8e41;}
+.wohnen_content a:hover {background-color: #ddd}
+
+
+.dropdown_betreung 
+{    
+    text-align: center;
+    padding-right: 5%;
+    margin-left: -0.2%;
+}
+
+.betreungskosten_content 
+{
+    display: none;
+    position: absolute;
+    background-color: #DAF7A6 ;
+    min-width: 232px;
+    box-shadow: 10px 8px 16px 10px rgba(0,1,1,0.2);
+    z-index: 3;
+    margin-left: -6%;
+}
+
+.betreungskosten_content a 
+{
+    color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_betreung:hover .betreungskosten_content {display: block;}
+.dropdown_betreung:hover .dropbtn {background-color: #3e8e41;}
+.betreungskosten_content a:hover {background-color: #ddd}
+
+.dropdown_kontakt 
+{    
+    text-align: center;
+    padding-right: 3.5%;
+    margin-left: -4.3%;
+}
+
+.tag_content 
+{
+    display: none;
+    position: absolute;
+    background-color: #78409a ;
+    min-width: 201px;
+    box-shadow: 10px 8px 16px 10px rgba(0,1,1,0.2);
+    z-index: 3;
+    margin-left: -5.3%;
+}
+
+.tag_content a 
+{
+    color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown_tag {
+    
+    text-align: center;
+    padding-right: 3.5%;
+    margin-left: -6%;
+}
+
+
+.dropdown_tag:hover .tag_content {display: block;}
+.dropdown_tag:hover .dropbtn {background-color: #3e8e41;}
+.tag_content a:hover {background-color: #ddd}
+
+
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #12d3df;
+    min-width: 170px;
+    box-shadow: 10px 8px 16px 10px rgba(0,1,1,0.2);
+    z-index: 3;
+    margin-left: -4.3%;
+}
+
+.dropdown-content a 
+{
+    color: black;
+    padding: 15px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd}
+.dropdown_kontakt:hover .dropdown-content {display: block;}
+.dropdown_kontakt:hover .dropbtn {background-color: #3e8e41;}
+
+
+.banner
+{
+    height: 270px;
+  	margin-left: 15%;
+	margin-right: 10%;
+	width: 65%;
+	background-color: white;
+}
+
+.mySlides {display:none;}
+
+.info h1, h5, h3
+{
+	font-family: 'Tangerine';
+    font-size: 78px;
+    text-shadow: 10px 10px 10px #aaa
+}
+
+
+
+.info
+{
+	background-color:  #a6debb;
+	margin-top: -4%;
+	margin-left: 15%;
+	margin-right: 10%;
+	width: 65%;
+	font-family: 'Helvetica', serif;
+	font-size: 40px;
+	text-shadow: 22px 22px 22px #aaa;
+	
+}
+
+
+.info p
+{
+	padding-left: 10px; 
+	font-family: 'Helvetica', serif;
+	font-size: 25px;
+	text-shadow: 22px 22px 22px #aaa;
+
+}
+
+
+
+table
+{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td, th 
+{
+    border: 1px solid  #9a1838 ;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even)
+{
+    background-color: #dddddd;
+}
