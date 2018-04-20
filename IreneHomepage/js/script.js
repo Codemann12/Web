@@ -1,7 +1,8 @@
 var myIndex = 0;
 carousel();
 
-function carousel() {
+function carousel()
+{
     var i;
     var arrayOfSlides = document.getElementsByClassName("mySlides");
     for (i = 0; i < arrayOfSlides.length; i++) {
@@ -12,3 +13,19 @@ function carousel() {
     arrayOfSlides[myIndex-1].style.display = "block"; 
     setTimeout(carousel, 5000); 
   }
+
+
+
+function initMap()
+{
+    var uluru = {lat: 54.338393, lng: 10.128051};
+    var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 14,
+          center: uluru
+        });
+
+    var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+}
