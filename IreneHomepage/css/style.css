@@ -5,69 +5,80 @@
 	margin-top: -2%;
 	margin-left: 15%;
 	margin-right: 10%;
-	width: 65%;	
+	width: 68%;	
 }
 
 
-.icon-bar { margin-right: 10.1%;}
+.icon-bar { margin-right: 0.2%;}
 
 .icon-bar a 
 {
     float: right;
     color: white;
-    font-size: 670%;    
+    font-size: 710%;    
 }
 
 
 .active {background-color: #4CAF50;}
 
-.dropbtn {
-    background-color: #4CAF50 ;
-    color: white;
-    padding: 55px;
-    font-size: 100%;
-    border: none;
-    margin-left: -50%;
-    margin-right: 20%;  
-}
-
 
 .dropdown_whohnen 
 { 
-    text-align: center;
-    margin-right: 40%;
-    margin-left: -20%;  
+    position: relative;
+    display: inline-block;
 }
+
+.dropbtnWohnen 
+{
+    background-color: #4CAF50 ;
+    color: white;
+    padding: 33.25%;
+    font-size: 100%;
+    border: none;
+    cursor: pointer;
+
+}
+
 
 .wohnen_content 
 {
     display: none;
     position: absolute;
     background-color: #d5416e;
-    min-width: 170px;
+    min-width: 13.2%;
     box-shadow: 10px 8px 16px 10px rgba(0,1,1,0.2);
-    z-index: 3;
-    margin-left: -86px;
+    z-index: 1;
 }
 
 .wohnen_content a 
 {
     color: black;
-    padding: 15px 15px;
+    padding: 6% 6%;
     text-decoration: none;
     display: block;
 }
 
 .dropdown_wohnen:hover .wohnen_content {display: block;}
-.dropdown_wohnen:hover .dropbtn {background-color: #3e8e41;}
+.dropdown_wohnen:hover .dropbtnWohnen {background-color: #3e8e41;}
 .wohnen_content a:hover {background-color: #ddd}
 
 
 .dropdown_betreung 
 {    
-    text-align: center;
-    padding-right: 5%;
-    margin-left: -0.2%;
+    position: relative;
+    display: inline-block;
+    margin-left: 0.3%;
+}
+
+.dropbtnBetreung
+{
+    background-color: #4CAF50 ;
+    color: white;
+    padding: 24.7%;
+    font-size: 100%;
+    border: none;
+    cursor: pointer;
+
 }
 
 .betreungskosten_content 
@@ -75,10 +86,9 @@
     display: none;
     position: absolute;
     background-color: #DAF7A6 ;
-    min-width: 232px;
+    min-width: 100%;
     box-shadow: 10px 8px 16px 10px rgba(0,1,1,0.2);
-    z-index: 3;
-    margin-left: -6%;
+    z-index: 1;
 }
 
 .betreungskosten_content a 
@@ -90,60 +100,83 @@
 }
 
 .dropdown_betreung:hover .betreungskosten_content {display: block;}
-.dropdown_betreung:hover .dropbtn {background-color: #3e8e41;}
+.dropdown_betreung:hover .dropbtnBetreung {background-color: #3e8e41;}
 .betreungskosten_content a:hover {background-color: #ddd}
 
-.dropdown_kontakt 
+.dropdown_tag 
 {    
-    text-align: center;
-    padding-right: 3.5%;
-    margin-left: -4.3%;
+    position: relative;
+    display: inline-block;
+    margin-left: 0.3%;
 }
+
+
+.dropbtnTag
+{
+    background-color: #4CAF50 ;
+    color: white;
+    padding: 29.2%;
+    font-size: 100%;
+    border: none;
+    cursor: pointer;
+
+}
+
 
 .tag_content 
 {
     display: none;
     position: absolute;
     background-color: #78409a ;
-    min-width: 201px;
+    min-width: 100%;
     box-shadow: 10px 8px 16px 10px rgba(0,1,1,0.2);
-    z-index: 3;
-    margin-left: -5.3%;
+    z-index: 1;
 }
 
 .tag_content a 
 {
     color: black;
-    padding: 15px 15px;
+    padding: 5% 5%;
     text-decoration: none;
     display: block;
 }
 
-.dropdown_tag {
-    
-    text-align: center;
-    padding-right: 3.5%;
-    margin-left: -6%;
-}
-
 
 .dropdown_tag:hover .tag_content {display: block;}
-.dropdown_tag:hover .dropbtn {background-color: #3e8e41;}
+.dropdown_tag:hover .dropbtnTag {background-color: #3e8e41;}
 .tag_content a:hover {background-color: #ddd}
 
 
-.dropdown-content 
+.dropdown_kontakt
+{
+    position: relative;
+    display: inline-block;
+    margin-left: 0.3%;
+
+}
+
+.dropbtnKontakt
+{
+    background-color: #4CAF50 ;
+    color: white;
+    padding: 34.09%;
+    font-size: 100%;
+    border: none;
+    cursor: pointer;
+
+}
+
+.kontakt-content 
 {
     display: none;
     position: absolute;
     background-color: #12d3df;
-    min-width: 170px;
+    min-width: 100%;
     box-shadow: 10px 8px 16px 10px rgba(0,1,1,0.2);
-    z-index: 3;
-    margin-left: -4.3%;
+    z-index: 1;
 }
 
-.dropdown-content a 
+.kontakt-content a 
 {
     color: black;
     padding: 15px 15px;
@@ -151,9 +184,9 @@
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #ddd}
-.dropdown_kontakt:hover .dropdown-content {display: block;}
-.dropdown_kontakt:hover .dropbtn {background-color: #3e8e41;}
+.dropdown_kontakt a:hover {background-color: #ddd}
+.dropdown_kontakt:hover .kontakt-content {display: block;}
+.dropdown_kontakt:hover .dropbtnKontakt {background-color: #3e8e41;}
 
 
 .banner
@@ -161,7 +194,7 @@
     height: 270px;
   	margin-left: 15%;
 	margin-right: 10%;
-	width: 65%;
+	width: 68%;
 	background-color: white;
 }
 
@@ -182,7 +215,7 @@
 	margin-top: -4%;
 	margin-left: 15%;
 	margin-right: 10%;
-	width: 65%;
+	width: 68%;
 	font-family: 'Helvetica', serif;
 	font-size: 40px;
 	text-shadow: 22px 22px 22px #aaa;
