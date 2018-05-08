@@ -1,0 +1,76 @@
+/*
+#menu
+{
+	background-color: #78409a;
+	display: none;
+
+}
+*/
+
+
+.banner{display: none;}
+
+.mySlides {display:none;}
+
+.info h1, h5, h3
+{
+	font-family: 'Tangerine';
+    font-size: 78px;
+    text-shadow: 10px 10px 10px #aaa
+}
+
+
+
+.info
+{
+	background-color:  #a6debb;
+	margin-top: -4%;
+	margin-left: 15%;
+	margin-right: 10%;
+	width: 68%;
+	font-family: 'Helvetica', serif;
+	font-size: 40px;
+	text-shadow: 22px 22px 22px #aaa;
+	
+}
+
+
+.info p
+{
+	padding-left: 10px; 
+	font-family: 'Helvetica', serif;
+	font-size: 25px;
+	text-shadow: 22px 22px 22px #aaa;
+
+}
+
+
+
+table
+{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td, th 
+{
+    border: 1px solid  #9a1838 ;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even)
+{
+    background-color: #dddddd;
+}
+
+
+#map 
+{
+    margin-left: 9%;
+    width: 80%;
+    height: 400px;
+    background-color: grey;
+}
