@@ -1,4 +1,4 @@
-.topnav{display: none;}
+
 
 #menu
 {
@@ -11,185 +11,7 @@
 }
 
 
-.icon-bar { margin-right: 0.2%;}
-
-.icon-bar a 
-{
-    float: right;
-    color: white;
-    font-size: 710%;    
-}
-
-
 .active {background-color: #4CAF50;}
-
-
-.dropdown_whohnen 
-{ 
-    position: relative;
-    display: inline-block;
-}
-
-.dropbtnWohnen 
-{
-    background-color: #4CAF50 ;
-    color: white;
-    padding: 33.25%;
-    font-size: 100%;
-    border: none;
-    cursor: pointer;
-
-}
-
-
-.wohnen_content 
-{
-    display: none;
-    position: absolute;
-    background-color: #d5416e;
-    min-width: 13.2%;
-    box-shadow: 10px 8px 16px 10px rgba(0,1,1,0.2);
-    z-index: 1;
-}
-
-.wohnen_content a 
-{
-    color: black;
-    padding: 6% 6%;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown_wohnen:hover .wohnen_content {display: block;}
-.dropdown_wohnen:hover .dropbtnWohnen {background-color: #3e8e41;}
-.wohnen_content a:hover {background-color: #ddd}
-
-
-.dropdown_betreung 
-{    
-    position: relative;
-    display: inline-block;
-    margin-left: 0.3%;
-}
-
-.dropbtnBetreung
-{
-    background-color: #4CAF50 ;
-    color: white;
-    padding: 24.7%;
-    font-size: 100%;
-    border: none;
-    cursor: pointer;
-
-}
-
-.betreungskosten_content 
-{
-    display: none;
-    position: absolute;
-    background-color: #DAF7A6 ;
-    min-width: 100%;
-    box-shadow: 10px 8px 16px 10px rgba(0,1,1,0.2);
-    z-index: 1;
-}
-
-.betreungskosten_content a 
-{
-    color: black;
-    padding: 15px 15px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown_betreung:hover .betreungskosten_content {display: block;}
-.dropdown_betreung:hover .dropbtnBetreung {background-color: #3e8e41;}
-.betreungskosten_content a:hover {background-color: #ddd}
-
-.dropdown_tag 
-{    
-    position: relative;
-    display: inline-block;
-    margin-left: 0.3%;
-}
-
-
-.dropbtnTag
-{
-    background-color: #4CAF50 ;
-    color: white;
-    padding: 29.2%;
-    font-size: 100%;
-    border: none;
-    cursor: pointer;
-
-}
-
-
-.tag_content 
-{
-    display: none;
-    position: absolute;
-    background-color: #78409a ;
-    min-width: 100%;
-    box-shadow: 10px 8px 16px 10px rgba(0,1,1,0.2);
-    z-index: 1;
-}
-
-.tag_content a 
-{
-    color: black;
-    padding: 5% 5%;
-    text-decoration: none;
-    display: block;
-}
-
-
-.dropdown_tag:hover .tag_content {display: block;}
-.dropdown_tag:hover .dropbtnTag {background-color: #3e8e41;}
-.tag_content a:hover {background-color: #ddd}
-
-
-.dropdown_kontakt
-{
-    position: relative;
-    display: inline-block;
-    margin-left: 0.3%;
-
-}
-
-.dropbtnKontakt
-{
-    background-color: #4CAF50 ;
-    color: white;
-    padding: 34.09%;
-    font-size: 100%;
-    border: none;
-    cursor: pointer;
-
-}
-
-.kontakt-content 
-{
-    display: none;
-    position: absolute;
-    background-color: #12d3df;
-    min-width: 100%;
-    box-shadow: 10px 8px 16px 10px rgba(0,1,1,0.2);
-    z-index: 1;
-}
-
-.kontakt-content a 
-{
-    color: black;
-    padding: 15px 15px;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown_kontakt a:hover {background-color: #ddd}
-.dropdown_kontakt:hover .kontakt-content {display: block;}
-.dropdown_kontakt:hover .dropbtnKontakt {background-color: #3e8e41;}
-
 
 .banner
 {
@@ -214,7 +36,7 @@
 .info
 {
 	background-color:  #a6debb;
-	margin-top: -4%;
+	margin-top: -1%;
 	margin-left: 15%;
 	margin-right: 10%;
 	width: 68%;
@@ -264,3 +86,21 @@ tr:nth-child(even)
     height: 400px;
     background-color: grey;
 }
+
+
+#menuUpdate{
+    display: flex;
+    background-color:  #ff6699;
+    margin-top: -0.3%;
+    height: 100px;
+    margin-left: 15%;
+    margin-right:17%;
+}
+
+.links{
+    font-variant: small-caps;
+}
+
+.w3-lobster {
+    font-family: "Lobster", Sans-serif;
+    }
