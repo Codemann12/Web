@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster&effect=brick-sign">
     <link rel="shortcut icon" href="img/head.jpg"/> 
-     <title>Tagesmutter Kiel</title>
+   
+  
+   <title>Tagesmutter Kiel</title>
 </head>
 
 <body style="background-color: #41430e">
@@ -21,7 +23,7 @@
 
     <div class="topnav" id="myTopnav">
     	<div style="padding-top: 1%">
-		<a href="kommentar.html" style="text-decoration: none">Gästebuch |</a>
+		<!--a href="kommentar.html" style="text-decoration: none">Gästebuch |</a-->
 		<a href="freiePlaetze.html" style="text-decoration: none">Freie Plätze |</a>
 		<a href="konzeption.html"style="text-decoration: none">Konzeption |</a>
 		<a href="urlaub.html" style="text-decoration: none">Urlaub |</a>
@@ -43,19 +45,25 @@
   <img class="mySlides" src="img/img2.jpg"  height ="270" style="width:100%">
   <img class="mySlides" src="img/img3.jpg" height ="270" style="width:100%">
 </div>
+ 
+<div class="info" style="margin-bottom: 60%; background-color: #37e7d2">
+<h5 style="font-family: 'Tangerine'; font-size: 50px">
+	Hier können Sie mich finden: <br>Saarbrückenstraße 31, 24114 Kiel
+</h5> 
 
-<div class="info" style="margin-bottom: 60%; background-color: #37e7d2 ">
-<h5 style="font-family: 'Tangerine'; font-size: 50px">Hier können Sie mich finden: Adresse</h5> 
-<div id="map" style="margin-bottom: 10%"></div>
-<p style="padding-left: 10px;"> Foto von Irene, email und tel-nber &#x263A; </p>
-<h5 >Tagesmutter Irene</h5>
+
+<div id="mapid" ></div>
+<script src="js/OpenLayers.js"></script>
+<script src="js/script.js"></script>
+
+<p style="padding-left: 10px;">  Tel.: 0171 3494881 <br>
+Mail: ireneschroeder@t-online.de </p>
+<h5 style="padding-top: 1%; font-family: 'Tangerine'; font-size: 120%">Tagesmutter Irene</h5>
 </div>
 
-<script src="js/script.js"></script>
-<script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvlKCc4Tg_BIV6dhZSlvL_ptTd2lPmUSc
-&callback=initMap">
-</script>
+
+
+
 
 </body>
 

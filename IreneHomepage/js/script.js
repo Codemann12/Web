@@ -1,5 +1,5 @@
 var myIndex = 0;
-carousel();
+
 
 function carousel()
 {
@@ -14,23 +14,6 @@ function carousel()
     setTimeout(carousel, 5000); 
   }
 
-
-
-function initMap()
-{
-    var uluru = {lat: 54.338393, lng: 10.128051};
-    var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 14,
-          center: uluru
-        });
-
-    var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-}
-
-
 function myFunction()
  {
     var x = document.getElementById("myTopnav");
@@ -40,3 +23,27 @@ function myFunction()
         x.className = "topnav";
     }
 }
+
+function initMap() {
+        map = new OpenLayers.Map("mapid");
+        var mapnik         = new OpenLayers.Layer.OSM();
+        var fromProjection = new OpenLayers.Projection("EPSG:4326");   // Transform from WGS 1984
+        var toProjection   = new OpenLayers.Projection("EPSG:900913"); // to Spherical Mercator Projection
+        var position       = new OpenLayers.LonLat(10.113020, 54.310822).transform( fromProjection, toProjection);
+        var zoom           = 17; 
+        
+
+        map.addLayer(mapnik);
+        var markers = new OpenLayers.Layer.Markers( "Markers" );       
+        var size = new OpenLayers.Size(21,21);
+        var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
+        var icon = new OpenLayers.Icon("img/Irene.png", size, offset);
+        markers.addMarker(new OpenLayers.Marker(position,icon));
+
+
+        map.addLayer(markers);
+        map.setCenter(position, zoom );
+}
+
+carousel();
+initMap();
