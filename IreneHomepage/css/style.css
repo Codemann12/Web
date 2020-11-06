@@ -23,7 +23,7 @@ body{
 
 .info h1, h5, h3
 {
-	  font-family: 'Tangerine';
+    font-family: 'Tangerine';
     font-size: 78px;
     text-shadow: 10px 10px 10px #aaa
 }
@@ -31,7 +31,7 @@ body{
 .info
 {
 	background-color:  #a6debb;
-	margin-top: -1%;
+	margin-top: -1.5%;
 	margin-left: 15%;
 	margin-right: 10%;
 	width: 68%;
@@ -92,9 +92,9 @@ font-size: 850px;}
 
 .textP
 {
-    margin-top: -20%;
+    margin-top: -15%;
     padding-left:50%;
-    padding-top: 23%;
+    padding-top: 25%;
 }
 
 
@@ -111,7 +111,7 @@ font-size: 850px;}
   text-align: center;
   padding: 8px 10px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 25px;
 }
 
 .TextWrap
@@ -135,7 +135,7 @@ font-size: 850px;}
 
     .info
     {
-        margin-top: -1%;
+        margin-top: 20%;
         margin-left: 0%;
         margin-right: 0%;
         width: 100%;    
